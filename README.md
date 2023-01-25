@@ -1,4 +1,4 @@
-# FrontStudy-200531 ~ 220203 웹디자인기능사+개인프로젝트
+# 200531 ~ 220203 웹디자인기능사+개인프로젝트
 
 ## 210608
 ![꽁냥꽁냥](https://user-images.githubusercontent.com/103344381/214546543-a349f847-8fde-4a2b-bae3-31d505a888e4.gif)
