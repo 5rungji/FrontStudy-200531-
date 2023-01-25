@@ -1,0 +1,81 @@
+*{
+    padding: 0px; margin: 0px;
+    box-sizing: border-box;
+}
+
+.clearfix:after{
+    display: block; content: ''; clear: both;
+}
+
+li{list-style: none;}
+
+/*wrap*/
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: azure;
+}
+
+/*content*/
+#header{
+    width: 100%; height: 80px; background-color: aqua
+}
+
+#logo{
+    width: 250px; height: 100%; background-color: aquamarine; 
+    float: left;
+}
+
+#nav{
+    width: 600px;
+    float: right;
+    margin-top: 10px;
+    
+}
+
+.mainmenu>li{
+    float: left;
+    width: 25%; 
+    text-align: center;
+    background-color: aquamarine;
+}
+
+.mainmenu li a{
+    display: block;
+    padding: 10px;
+}
+
+.submenu{
+    display: none;
+}
+
+.mainmenu a:hover{background-color: rgba(0,0,0,0.4);}
+
+/*content*/
+#content{
+    width: 100%; height: 300px;
+}
+
+#banner{
+    width: 100%; height: 200px; background-color: deepskyblue;
+}
+
+#contents>div{
+    width: 33.3333%; height: 100px;
+    float: left; color: white;
+}
+
+.cont1{ background-color: dodgerblue; }
+.cont2{ background-color: cornflowerblue; }
+.cont3{ background-color: blueviolet; }
+
+
+/*footer*/
+#footer>div{
+    width: 33.3333%; height: 80px;
+    float: left;
+}
+
+.foot1{background-color: cadetblue;}
+.foot2{background-color: darkseagreen;}
+.foot3{background-color: forestgreen;}

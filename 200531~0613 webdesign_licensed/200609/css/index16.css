@@ -1,0 +1,203 @@
+/*layout*//*layout*/
+
+*{
+    margin: 0px; padding: 0px;
+    list-style: none;
+    text-decoration: none;
+    color: #333333;
+}
+
+#wrap{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: #ffffff;
+}
+
+.clearfix:after{ display: block; content: ''; clear: both; }
+
+
+/*header*//*header*/
+#header{
+    width: 1200px; height: 100px;
+    background-color: #3cb149;
+}
+
+.logo{
+    width: 200px; height: 40px;
+    float: left;
+    margin-top: 30px;
+}
+
+.menu{
+    width: 600px; height: 100px;
+    float: right;
+    margin-top: 50px;
+    position: relative;
+}
+
+.mainmenu{
+    position: absolute;
+    z-index: 56;
+}
+
+.mainmenu li{
+    float: left;
+    width: 150px;
+}
+
+.mainmenu h3{
+    color: white;
+}
+
+.mainmenu li a{
+    height: 30px;
+    padding: 10px 0px;
+    display: block;
+    text-align: center;
+    color: white;
+}
+
+.mainmenu a:hover{
+    background-color: #1d8844;
+}
+
+.mainmenu>li{
+    background-color: #1d8844;    
+}
+
+.submenu>li{
+    background-color: #434748;
+}
+
+li.point{
+    background-color: #434748;
+}
+
+.submenu{
+    display: none;
+}
+
+.backmenu{
+    position: absolute; top:50px; right: 0px;
+    width: 1200px; height: 150px;
+    background-color: #434748;
+    z-index: 50;
+    display: none;
+}
+
+/*content*//*content*/
+#content{
+    width: 1200px; height: 500px;
+    position: relative;
+}
+
+/*banner*/
+.banner{
+    width: 1200px; height: 300px;
+    line-height: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.slide{
+    width: 3600px; height: 300px;
+}
+
+.slide li{
+    float: left;
+}
+
+/*contents*/
+.contents{
+    width: 1200px;
+    position: absolute; top: 300px;
+    background-color: #3cb149;
+}
+
+.contents>div{
+    width: 400px; height: 200px;
+    float: left;
+}
+
+.contents *{
+    color: white;
+}
+
+.contents h2{
+    width: 150px; height: 40px;
+    padding-top: 5px;
+    margin-left: 15px;
+    text-align: center;
+    background-color: #1d8844;
+}
+
+.cont1 div{
+    margin-left: 5px;
+    width: 395px; height: 155px;
+    background-color: #1d8844;
+}
+
+.cont2 div{
+    margin-left: 5px;
+    width: 395px; height: 155px;
+    background-color: #1d8844;
+}
+
+.cont3 h2{
+    background-color: #3cb149;
+}
+
+.cont3 div{
+    
+}
+
+
+/*footer*//*footer*/
+#footer{
+    width: 1200px;
+}
+
+#footer div{
+    height: 100px; color: white;
+    float: left;
+}
+
+.foot1{
+    width: 200px;
+    background-color: #987;
+}
+
+.foot2{
+    width: 800px;
+    background-color: #645;
+}
+
+.foot3{
+    width: 200px;
+    background-color: #321;
+}
+
+/*popup*/
+
+#popup{
+    position: absolute; top: 0px; left: 0px;
+    z-index: 100;
+    width: 100%; height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display:none;
+}
+
+.popup{
+    width: 500px; height: 400px;
+    position: absolute; top: 50%; left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 101;
+    background-color: white;
+    padding: 10px;
+}
+
+.popup div{
+    position: absolute; bottom: 10px; right: 10px;
+    padding: 5px 10px;
+    border: 0.5px solid black;
+}

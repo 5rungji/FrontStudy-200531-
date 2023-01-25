@@ -1,0 +1,590 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+    <script src="jquery-3.3.1.min.js"></script>
+
+    <script src="main.js"></script>
+	<link rel="stylesheet" href="main.css">
+
+	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+</head>
+<body>
+	<div id="wrap">
+
+<!-- header_Start -->
+		<div id="header" class="clearfix">
+
+	<!-- ----------- header_top ----------- -->
+			<div id="header_top">
+				<div id="header_top_menu" class="clearfix">					
+					<ul>
+						<li><a href="#">홈</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">로그인</a></li>
+					</ul>
+					<ul>						
+						<li><a href="#">회원가입</a></li>
+					</ul>
+					<ul>
+						<li><a href="#">장바구니</a></li>
+					</ul>
+					<ul>					
+						<li class="header_top_submenu">
+							<a href="#">커뮤니티</a>
+							<ul class="active">
+								<li><a href="#">NOICE</a></li>
+								<li><a href="#">REVIEW</a></li>
+								<li><a href="#">EVENT</a></li>
+							</ul>
+						</li>
+					</ul>
+					<ul>
+						<li><a href="#">Q&A</a></li>
+					</ul>
+				</div>
+				<div id="search" class="clearfix">
+					<div>
+						<input type="text">
+						<i class="fas fa-search"></i>
+					</div>
+					<a href="#"><i class="far fa-clock"></i></a>
+					<a href="#"><i class="far fa-bookmark"></i></a>
+				</div>
+			</div>
+
+	<!-- ----------- header_middle ----------- -->		
+			<div id="header_middle">
+				<a href="#">
+					<img src="main_img/main_logo.png" alt="main_logo">
+				</a>
+				<div>
+					<a href="#"><i class="fab fa-twitter"></i></a>
+					<a href="https://www.instagram.com/cuddle7942/" target="_blank"><i class="fab fa-instagram"></i></a>
+					<a href="#"><i class="fab fa-blogger"></i></a>
+					<a href="#"><i class="fab fa-facebook-f"></i></a>
+				</div>
+			</div>
+
+	<!-- ----------- header_bottom ----------- -->
+			<div id="header_bottom" class="clearfix">
+				<div id="header_bot_fullbutton">
+					<a href="#"><i class="fas fa-bars"></i></a>
+					<div id="header_bot_fullmenu" class="clearfix">
+						<ul>
+							<li>
+								<a href="#">BEST50</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">NEW</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">OUTER</a>
+								<ul>
+									<li>점퍼</li>
+									<li>코트</li>
+									<li>패딩</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">TOP</a>
+								<ul>
+									<li>셔츠</li>
+									<li>티셔츠</li>
+									<li>블라우스</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">커뮤니티</a>
+								<ul>
+									<li>NOTICE</li>
+									<li>RIVIEW</li>
+									<li>Q & A</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">BOTTOM</a>
+								<ul>
+									<li>팬츠</li>
+									<li>스커트</li>
+									<li>레깅스</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">CARDIGAN & KNIT</a>
+								<ul>
+									<li>가디건</li>
+									<li>니트</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">SET</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">SHOES & BAG</a>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">쇼핑몰정보</a>
+								<ul>
+									<li>회사소개</li>
+									<li>이용약관</li>
+									<li>이용안내</li>
+									<li>개인정보 처리방침</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">ACCESSORIES</a>
+								<ul>
+									<li>가방</li>
+									<li>신발</li>
+									<li>ETC</li>
+								</ul>
+							</li>
+						</ul>
+						<ul>
+							<li>
+								<a href="#">SALE</a>
+							</li>
+						</ul>
+					</div>
+				</div>
+
+
+				<div id="header_bot_linemenu" class="clearfix">
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">BEST50</a>
+						</li>
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">NEW</a>
+						</li>
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">KIDS</a>
+							<ul>
+								<li>TOP</li>
+								<li>BOTTOM</li>
+								<li>SET</li>
+							</ul>
+						</li>
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">MOM</a>
+							<ul>
+								<li>TOP</li>
+								<li>BOTTOM</li>
+								<li>SET</li>
+							</ul>
+						</li>
+
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">COUPLE</a>
+							<ul>
+								<li>TOP</li>
+								<li>BOTTOM</li>
+								<li>SET</li>
+							</ul>
+						</li>
+					</ul>					
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">ACCESORIES</a>
+							<ul>
+								<li>SHOES</li>
+								<li>BAG</li>
+								<li>ETC</li>
+							</ul>
+						</li>
+
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">SALE</a>
+						</li>
+					</ul>
+					<ul> 
+						<li class="header_bot_linemenu_sub">
+							<a href="#">CONTACT</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+
+		</div>
+<!-- header_End -->
+
+
+<!-- banner_Start -->
+		<div id="banner" class="clearfix">
+
+		<!-- ----------- banner_top ----------- -->			
+			<div id="banner_top" class="clearfix slide">
+				<a href="#"><img src="main_img/main_banner/main_banner1.jpg" alt="banner1"></a>
+				<a href="#"><img src="main_img/main_banner/main_banner2.jpg" alt="banner2"></a>
+				<a href="#"><img src="main_img/main_banner/main_banner3.jpg" alt="banner3"></a>
+			</div>
+
+		<!-- ----------- banner_bottom ----------- -->
+			<div id="banner_bottom">
+				<ul>
+					<li>
+						<div>
+							<span> New 10% </span>
+							<span>
+								<br><br> #매일 오전 10시 오픈 신상 아이템
+								<br> #3일간 10% 할인으로 특템 기회!
+							</span>
+						</div>
+						<a href="#">
+							<img src="main_img/sub_banner/banner_sub1_1.jpg" alt="banner_sub1_1">
+							<img src="main_img/sub_banner/banner_sub1_2.jpg" alt="banner_sub1_2">
+							<img src="main_img/sub_banner/banner_sub1_3.jpg" alt="banner_sub1_3">
+							<img src="main_img/sub_banner/banner_sub1_4.jpg" alt="banner_sub1_4">
+						</a>
+					</li>
+					<li>
+						<div>
+							<span> 베스트 50 </span>
+							<span>
+								<br><br> #꽁냥꽁냥의 이유있는 베스트
+								<br> #매월 둘째주
+							</span>
+						</div>
+						<a href="#">
+							<img src="main_img/sub_banner/banner_sub2_1.jpg" alt="banner_sub2_1">
+							<img src="main_img/sub_banner/banner_sub2_2.jpg" alt="banner_sub2_2">
+							<img src="main_img/sub_banner/banner_sub2_3.jpg" alt="banner_sub2_3">
+							<img src="main_img/sub_banner/banner_sub2_4.jpg" alt="banner_sub2_4">
+						</a>
+					</li>
+					<li>
+						<div>
+							<span> TODAY DELIVERY </span>
+							<span>
+								<br><br> #오전 주문시, 오늘 바로 발송되는 서비스
+								<br> #당일 배송
+							</span>
+						</div>
+						<a href="#">
+							<img src="main_img/sub_banner/banner_sub3_1.jpg" alt="banner_sub3_1">
+							<img src="main_img/sub_banner/banner_sub3_2.jpg" alt="banner_sub3_2">
+							<img src="main_img/sub_banner/banner_sub3_3.jpg" alt="banner_sub3_3">
+							<img src="main_img/sub_banner/banner_sub3_4.jpg" alt="banner_sub3_4">
+						</a>
+					</li>
+					<li>
+						<div>
+							<span> 1+1 </span>
+							<span>
+								<br><br> #하나 사면, 하나 더!
+								<br> #합리적인 가격의 기획 아이템
+							</span>
+						</div>
+						<a href="#">
+							<img src="main_img/sub_banner/banner_sub4_1.jpg" alt="banner_sub4_1">
+							<img src="main_img/sub_banner/banner_sub4_2.jpg" alt="banner_sub4_2">
+							<img src="main_img/sub_banner/banner_sub4_3.jpg" alt="banner_sub4_3">
+							<img src="main_img/sub_banner/banner_sub4_4.jpg" alt="banner_sub4_4">
+						</a>
+					</li>
+				</ul>
+			</div>
+
+		</div>
+<!-- banner_End -->
+
+<!-- content_Start -->
+		<div id="content">
+<!-- ----------- BEST50 ----------- -->
+		<div id="ban1"></div>
+
+		<span>BEST ITEMS</span>
+		<div id="best50">
+			<ul>
+				<li>
+					<ul class="best50">
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_1_1.JPG" alt="best1_1_1">
+								<img src="main_img/best50/best1_1_2.JPG" alt="best1_1_2">
+								<img src="main_img/best50/best1_1_3.JPG" alt="best1_1_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_2_1.JPG" alt="best1_2_1">
+								<img src="main_img/best50/best1_2_2.JPG" alt="best1_2_2">
+								<img src="main_img/best50/best1_2_3.JPG" alt="best1_2_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_3_1.JPG" alt="best1_3_1">
+								<img src="main_img/best50/best1_3_2.JPG" alt="best1_3_2">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="best50">
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_1_1.JPG" alt="best1_1_1">
+								<img src="main_img/best50/best1_1_2.JPG" alt="best1_1_2">
+								<img src="main_img/best50/best1_1_3.JPG" alt="best1_1_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_2_1.JPG" alt="best1_2_1">
+								<img src="main_img/best50/best1_2_2.JPG" alt="best1_2_2">
+								<img src="main_img/best50/best1_2_3.JPG" alt="best1_2_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_3_1.JPG" alt="best1_3_1">
+								<img src="main_img/best50/best1_3_2.JPG" alt="best1_3_2">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="best50">
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_1_1.JPG" alt="best1_1_1">
+								<img src="main_img/best50/best1_1_2.JPG" alt="best1_1_2">
+								<img src="main_img/best50/best1_1_3.JPG" alt="best1_1_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_2_1.JPG" alt="best1_2_1">
+								<img src="main_img/best50/best1_2_2.JPG" alt="best1_2_2">
+								<img src="main_img/best50/best1_2_3.JPG" alt="best1_2_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_3_1.JPG" alt="best1_3_1">
+								<img src="main_img/best50/best1_3_2.JPG" alt="best1_3_2">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+					</ul>
+				</li>
+				<li>
+					<ul class="best50">
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_1_1.JPG" alt="best1_1_1">
+								<img src="main_img/best50/best1_1_2.JPG" alt="best1_1_2">
+								<img src="main_img/best50/best1_1_3.JPG" alt="best1_1_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_2_1.JPG" alt="best1_2_1">
+								<img src="main_img/best50/best1_2_2.JPG" alt="best1_2_2">
+								<img src="main_img/best50/best1_2_3.JPG" alt="best1_2_3">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+						<li>
+							<a href="#">
+								<img src="main_img/best50/best1_3_1.JPG" alt="best1_3_1">
+								<img src="main_img/best50/best1_3_2.JPG" alt="best1_3_2">
+							</a>
+							<div>
+								<span> 디즈니 반팔셔츠 </span>
+								<span>
+									<br> 컬러감이 예쁜 반팔 셔츠
+									<br> 하나만으로도 스타일리시하게
+								</span>
+								<br><hr><br>
+								<p>
+									<span style="text-decoration:line-through;"> 8,500원 </span>
+									<span><br> 7,600원</span>
+								</p>						
+							</div>
+						</li>
+					</ul>
+				</li>
+			</ul>
+		</div>
+		sss
+		</div>
+<!-- content_End -->
+
+
+<!-- footer_Start -->
+	<!-- ----------- footer ----------- -->
+		<div id="footer" class="clearfix">
+			
+		</div>
+<!-- footer_End -->
+
+
+	</div>
+</body>
+</html>
